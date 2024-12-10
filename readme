@@ -21,22 +21,3 @@ git clone <repository-url>
 cd library-management-system  
 Configure the Database:
 
-Import the provided library_db.sql file to set up the database schema and initial data.
-Update the db.properties file in the project to match your database credentials.
-Build the Project:
-If using Maven:
-
-bash
-Copy code
-mvn clean install  
-Run the Application:
-
-Compile and run the main file (LibraryManagement.java) using:
-bash
-Copy code
-javac LibraryManagement.java  
-java LibraryManagement  
-Access the System:
-
-If it’s a command-line application, follow the prompts on the terminal.
-For web-based versions, visit http://localhost:<port> (e.g., http://localhost:8080) on your browser.
